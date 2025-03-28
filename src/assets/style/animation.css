@@ -1,0 +1,100 @@
+/* Hiệu ứng trượt từ trái sang phải XA  */
+.slide-far-right-to-left-enter-active,
+.slide-far-right-to-left-leave-active {
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.slide-far-right-to-left-enter-from {
+    transform: translateX(300px);
+    opacity: 0;
+}
+
+.slide-far-right-to-left-enter {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-far-right-to-left-leave-to {
+    transform: translateX(1000px);
+    opacity: 0;
+}
+
+/* Hiệu ứng trượt từ trái sang phải */
+.slide-left-to-right-enter-active,
+.slide-left-to-right-leave-active {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.slide-left-to-right-enter-from {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.slide-left-to-right-enter-to {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-left-to-right-leave-to {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+/* Hiệu ứng trượt từ phải sang trái */
+.slide-right-to-left-enter-active,
+.slide-right-to-left-leave-active {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.slide-right-to-left-enter-from {
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+.slide-right-to-left-enter-to {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-right-to-left-leave-to {
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.fade-slide-enter-from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.fade-slide-enter-to {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-slide-leave-to {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Hiệuk úng thu nhỏ*/
+
+
+.far-big-to-small-enter-active,
+.far-big-to-small-leave-active {
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.far-big-to-small-enter-from {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.far-big-to-small-enter-to {
+    transform: translateY(0);
+    opacity: 1;
+}
